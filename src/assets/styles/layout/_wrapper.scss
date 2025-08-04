@@ -1,0 +1,23 @@
+
+
+.main_layout {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px 20px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 920px) {
+  .main_layout  .container {
+    flex-direction: column;
+  }
+}

@@ -16,7 +16,16 @@ html, body {
   font-family: 'Poltawski Nowy', serif;
   font-weight: 400;
 
-}
+  background-color: #0f172a;
+
+  background-image:
+          radial-gradient(60% 50% at 50% 0%, rgba(99,102,241,0.25), transparent 70%),
+          radial-gradient(60% 50% at 80% 20%, rgba(236,72,153,0.25), transparent 70%),
+          radial-gradient(60% 50% at 20% 80%, rgba(56,189,248,0.25), transparent 70%),
+
+          linear-gradient(transparent, transparent),
+          linear-gradient(#ffffff0d 1px, transparent 1px);
+
 
   background-size:
           100% 100%,

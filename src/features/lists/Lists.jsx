@@ -31,9 +31,6 @@ const Lists = () => {
         dispatch(addList(newList));
     };
 
-    const handleDeleteList = (id) => {
-        dispatch(deleteList(id))
-    };
 
     const handleOpenList =(id)=> {
         dispatch(openList(id));
